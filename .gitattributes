@@ -1,0 +1,28 @@
+# Auto-detect text files and ensure consistent line endings
+* text=auto
+
+# Force JSON files to always use LF (important for package.json, package-lock.json)
+*.json text eol=lf
+
+# Force TypeScript and JavaScript source files to use LF
+*.ts text eol=lf
+*.tsx text eol=lf
+*.js text eol=lf
+*.jsx text eol=lf
+
+# Force configuration files to use LF
+*.yml text eol=lf
+*.yaml text eol=lf
+*.md text eol=lf
+*.html text eol=lf
+*.css text eol=lf
+
+# Binary files should be left untouched
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.pdf binary
+*.zip binary
+*.exe binary

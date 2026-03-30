@@ -1,0 +1,13 @@
+# Ignore all compiled JavaScript files
+*.js
+
+# Ignore build output folders
+dist/
+build/
+out/
+
+# Ignore node_modules (for React/Express projects)
+node_modules/
+
+# Ignore environment files
+.env
